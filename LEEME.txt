@@ -1,0 +1,24 @@
+Qué subir a GitHub Pages
+========================
+
+En esta carpeta solo quedan 3 archivos:
+
+1. index.html     → súbalo a GitHub (es el sitio completo en un solo archivo)
+2. Code.gs        → NO va a GitHub Pages; péguelo en Google Sheets → Apps Script
+3. LEEME.txt      → estas instrucciones
+
+Publicar la web
+---------------
+1. Cree un repositorio y suba index.html (puede subir Code.gs también para guardarlo).
+2. Settings → Pages → Branch main → Folder / (root) → Save.
+3. La URL será: https://USUARIO.github.io/NOMBRE-REPO/
+
+Google Sheets
+-------------
+1. Extensiones → Apps Script → pegue Code.gs → Guardar.
+2. Ejecute setup → autorice.
+3. Implementar → Aplicación web → Cualquier persona.
+4. La URL /exec ya está dentro de index.html (config incrustada).
+
+El resto de archivos (desarrollo, galaxia, iconos sueltos, etc.)
+está en la carpeta "No uso\GitHub-extra".
